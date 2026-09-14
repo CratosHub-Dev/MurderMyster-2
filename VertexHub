@@ -1,1 +1,7 @@
-loadstring(game:HttpGet("https://cdn.sourceb.in/bins/FwIZEvUPaF/0"))()
+task.spawn(function()
+     loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/R0Yp5t7qYTMZuCHO/raw"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.smokingscripts.org/vertex.lua"))() 
+end)
